@@ -4,8 +4,8 @@
 	xsi:noNamespaceSchemaLocation='urn:magento:framework:Module/etc/module.xsd'
 >
 	<module name='Tingle_Core' setup_version='0.0.1'>
-		<sequence>
-			<module name='Magento_Checkout'/>
-		</sequence>
+		<!-- 2020-01-12 https://www.upwork.com/ab/f/contracts/23508657
+		@see view/frontend/requirejs-config.js -->
+		<sequence><module name='Magento_Checkout'/></sequence>
 	</module>
 </config>
